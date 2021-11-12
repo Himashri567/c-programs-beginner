@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("\nEnter any number from 1 to 5: ");
+	scanf("%d",&a);
+	switch(a)
+	{
+		case 1:
+			printf("\nFood item- Non veg Noodles \nPrice- Rs.150");
+		break;
+		case 2:
+			printf("\nFood item- Paneer Pizza \nPrice- Rs.200");
+		break;
+		case 3:
+			printf("\nFood item- Chicken Pasta \nPrice- Rs.190");
+		break;
+		case 4:
+			printf("\nFood item- Burger \nPrice- Rs.120");
+		break;
+		case 5:
+			printf("\nFood item- Sandwich \nPrice- Rs.110");
+		break;
+		default:
+			printf("Enter no.s from 1 to 5");
+	}
+	return 0;
+}
