@@ -12,7 +12,7 @@ int main()
 	int n,i,j;
 	printf("\nEnter a number: ");
 	scanf("%d",&n);
-	printf("\nThe sum of its digits is: %d",sum_of_digits(n));
+	printf("\nSum of digits: %d",sum_of_digits(n));
 	
 	return 0;
 }
