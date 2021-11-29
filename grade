@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+char grade(int a)
+{
+	if(a>=85 && a<=100)
+		return 'A';
+	else if(a>=70 && a<=84)
+		return 'B';
+	else if(a>=55 && a<=69)
+		return 'C';
+	else if(a>=40 && a<=54)
+		return 'D';
+	else 
+		return 'F';
+}
+int main()
+{
+	int a;
+	printf("\nEnter marks out of 100: ");
+	scanf("%d",&a);
+	printf("\nGrade obtained by the student: %c",grade(a));	
+	return 0;
+}
